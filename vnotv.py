@@ -8,7 +8,6 @@ import pickle
 import streamlit as st
 import speech_recognition as sr
 import matplotlib.pyplot as plt
-from easygui import buttonbox
 import os
 from PIL import Image
 from itertools import count
@@ -148,14 +147,8 @@ if selected_option == 'audio to sign':
         while 1:
             image = "signlang.jpeg"
             msg = "HEARING IMPAIRMENT ASSISTANT"
-            choices = ["Live Voice", "All Done!"]
-            # to select either of the choices given
-            reply = buttonbox(msg, image=image, choices=choices)
-            # if live audio is selected then go to func else exit
-            if reply == choices[0]:
-                func()
-            if reply == choices[1]:
-                quit()
+            func()
+            
 
 
 
