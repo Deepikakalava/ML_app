@@ -93,7 +93,7 @@ webrtc_ctx = webrtc_streamer(
         rtc_configuration=RTC_CONFIGURATION,
         media_stream_constraints={"video": True, "audio": False},
         video_processor_factory=VideoProcessor,
-        async_processing=True,
+        
     )
 
 if selected_option == 'audio to sign':
