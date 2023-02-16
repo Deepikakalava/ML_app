@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import os
 from PIL import Image
 from itertools import count
-import tkinter as tk
+
 import string
 import time
 
