@@ -1,4 +1,4 @@
-import cv2
+
 import numpy as np
 import av
 import mediapipe as mp
